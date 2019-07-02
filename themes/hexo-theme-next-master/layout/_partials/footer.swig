@@ -60,3 +60,5 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+
+<script type="text/javascript" src="/js/click-love.js"></script>

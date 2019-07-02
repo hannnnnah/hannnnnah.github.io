@@ -26,13 +26,13 @@ npm config set registry https://registry.npm.taobao.org
 ```
 npm install -g hexo-cli
 ```
-![安装hexo](images/install_hexo.png)
+![安装hexo](/images/install_hexo.png)
 
 5、查看版本信息
 ```
 hexo -v
 ```
-![查看版本信息](images/version.png)
+![查看版本信息](/images/version.png)
 
 6、初始化hexo程序
 ```
@@ -58,7 +58,7 @@ npm install
 - themes：主题
 - _config.yml: 博客的配置文件
 
-![文件夹目录](images/mulu.png)
+![文件夹目录](/images/mulu.png)
 
 10、打开hexo
 ```

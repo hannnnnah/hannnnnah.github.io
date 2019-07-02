@@ -158,13 +158,13 @@ baidu_push: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  schedule: /schedule/ || calendar
   movies: /movies || film
   books: /books || book
+  about: /about/ || user
+#  schedule: /schedule/ || calendar
 #  sitemap: /sitemap.xml || sitemap
 #  commonweal: /404/ || heartbeat
 
@@ -313,8 +313,8 @@ excerpt_description: true
 # Automatically Excerpt (Not recommend).
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 250
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section.
@@ -844,7 +844,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
