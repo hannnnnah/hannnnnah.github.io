@@ -1,9 +1,9 @@
 title: hexo初步学习
-author: 隐藏的NPC
-tags:
+author: 汉娜
+tags: 
   - hexo
-categories:
-  - hexo
+categories: 
+  - 博客
 date: 2019-07-01 17:05:00
 ---
 参考文档：
@@ -12,7 +12,7 @@ date: 2019-07-01 17:05:00
 
 2、[https://blog.csdn.net/sinat_37781304/article/details/82729029](https://blog.csdn.net/sinat_37781304/article/details/82729029)
 
-##### hexo部署到github
+#### hexo部署到github
 1、[安装git](https://git-scm.com/download/win)
 
 2、[安装nodejs](https://nodejs.org/en/)
@@ -113,12 +113,133 @@ hexo deploy/hexo d
 
 19、github中要新建一个仓库用户名+github.io，访问用户名.github.io即可
 
-##### 设置hexo主题
+#### 设置hexo主题
 1、[选择hexo主题](https://hexo.io/themes/)，到github上下载主题放到themes文件夹下
 2、修改_config.yml里的theme为该文件夹名称
 
 
-##### 新增菜单栏选项
+#### 新增菜单栏选项
 1、添加新页面：hexo new page "xx"
 2、在主题配置文件的menu中加上该页面
 3、在zh-CN.yml文件中加上中文意思
+
+
+#### 新增草稿
+1、添加草稿：hexo new draft "xx"
+2、预览草稿：hexo server --draft
+3、发布草稿：hexo publish draft "xx"
+
+
+#### 搜索
+1、npm install hexo-generator-searchdb --save
+2、站点配置文件的扩展下添加
+```
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+```
+3、主题配置文件下，local_search改成true即可
+```
+local_search:
+  enable: true
+```
+
+#### 字数
+1、npm install hexo-symbols-count-time --save
+2、站点配置
+```
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+```
+
+#### 宠物
+1、npm install --save hexo-helper-live2d
+2、[live2d插件](https://huaji8.top/post/live2d-plugin-2.0/)
+3、安装合适的宠物npm install live2d-widget-model-wanko
+4、在配置文件中添加即可
+```
+live2d:
+  enable: true
+  scriptFrom: local
+  pluginRootPath: live2dw/
+  pluginJsPath: lib/
+  pluginModelPath: assets/
+  model:
+#    use: live2d-widget-model-tororo
+#    use: live2d-widget-model-hijiki
+    use: live2d-widget-model-wanko
+  display:
+    position: right
+    width: 150
+    height: 300
+#    水平位置
+#    hOffset: 0
+#    垂直位置
+#    vOffset: -20
+  mobile:
+    show: true
+```
+
+#### 点击弹爱心
+1、在source->js目录下新建一个js文件为click-love.js
+```
+! function (e, t, a) {
+    function n() {
+        c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), o(), r()
+    }
+
+    function r() {
+        for (var e = 0; e < d.length; e++) d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += .004, d[e].alpha -= .013, d[e].el.style.cssText = "left:" + d[e].x + "px;top:" + d[e].y + "px;opacity:" + d[e].alpha + ";transform:scale(" + d[e].scale + "," + d[e].scale + ") rotate(45deg);background:" + d[e].color + ";z-index:99999");
+        requestAnimationFrame(r)
+    }
+
+    function o() {
+        var t = "function" == typeof e.onclick && e.onclick;
+        e.onclick = function (e) {
+            t && t(), i(e)
+        }
+    }
+
+    function i(e) {
+        var a = t.createElement("div");
+        a.className = "heart", d.push({
+            el: a,
+            x: e.clientX - 5,
+            y: e.clientY - 5,
+            scale: 1,
+            alpha: 1,
+            color: s()
+        }), t.body.appendChild(a)
+    }
+
+    function c(e) {
+        var a = t.createElement("style");
+        a.type = "text/css";
+        try {
+            a.appendChild(t.createTextNode(e))
+        } catch (t) {
+            a.styleSheet.cssText = e
+        }
+        t.getElementsByTagName("head")[0].appendChild(a)
+    }
+
+    function s() {
+        return "rgb(" + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + "," + ~~(255 * Math.random()) + ")"
+    }
+    var d = [];
+    e.requestAnimationFrame = function () {
+        return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {
+            setTimeout(e, 1e3 / 60)
+        }
+    }(), n()
+}(window, document);
+```
+2、在主题theme->layout->_partials->footer文件中导入该js文件即可
+```
+<script type="text/javascript" src="/js/click-love.js"></script>
+```
