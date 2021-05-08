@@ -220,7 +220,7 @@ ALTER TABLE Persons ALTER COLUMN City DROP DEFAULT;
 ```
 
 
-#### DROP删除表结构，TRUNCATE删除表内容
+#### DROP删除表结构，TRUNCATE删除表内容，空间恢复到初始大小，而DELETE不会减少表或索引所占的空间
 ```
 DROP TABLE table_name;
 TRUNCATE TABLE table_name;
@@ -234,5 +234,4 @@ SELECT ProductName,UnitPrice*(UnitsInStock+NVL(UnitsOnOrder,0)) FROM Products;
 SELECT ProductName,UnitPrice*(UnitsInStock+IFNULL(UnitsOnOrder,0)) FROM Products;
 SELECT ProductName,UnitPrice*(UnitsInStock+COALESCE(UnitsOnOrder,0)) FROM Products;
 ```
-
 
