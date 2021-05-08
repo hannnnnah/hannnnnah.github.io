@@ -1,22 +1,19 @@
 ---
 title: SQL知识复习（需要注意的点
 author: 汉娜
+tags: SQL知识点
+categories: 数据库
 date: 2021-05-07 15:52:07
-tags: 
-  - SQL知识点
-categories:
-  - 数据库
 ---
 
 
-
-#### 1、SELECT DISTINCT 语句用于返回唯一不同的值。
-
-
-#### 2、ORDER BY 关键字用于对结果集按照一个列或者多个列进行排序。默认按照升序对记录进行排序。如果需要按照降序对记录进行排序，可以使用 DESC 关键字。
+#### SELECT DISTINCT 语句用于返回唯一不同的值。
 
 
-#### 3、SQL INSERT INTO 语法有两种编写形式。
+#### ORDER BY 关键字用于对结果集按照一个列或者多个列进行排序。默认按照升序对记录进行排序。如果需要按照降序对记录进行排序，可以使用 DESC 关键字。
+
+
+#### SQL INSERT INTO 语法有两种编写形式。
 第一种形式无需指定要插入数据的列名，只需提供被插入的值即可：
 ```
 INSERT INTO table_name
@@ -29,7 +26,7 @@ VALUES (value1,value2,value3,...);
 ```
 
 
-#### 4、SQL SELECT TOP, LIMIT, ROWNUM 子句
+#### SQL SELECT TOP, LIMIT, ROWNUM 子句
 SQL Server / MS Access 语法：
 ```
 SELECT TOP number|percent column_name(s)
@@ -49,7 +46,7 @@ WHERE ROWNUM <= number;
 ```
 
 
-#### 5、SQL 通配符
+#### SQL 通配符
 _ 通配符：替代一个字符
 REGEXP/NOT REGEXP/RLIKE/NOT RLIKE '^ [charlist]'：字符列中的任何单一字符
 ```
@@ -63,7 +60,7 @@ WHERE name REGEXP '^[^A-H]';
 ```
 
 
-#### 6、CONCAT（）把多列结合在一起
+#### CONCAT（）把多列结合在一起
 在下面的 SQL 语句中，把三个列（url、alexa 和 country）结合在一起，并创建一个名为 "site_info" 的别名
 ```
 SELECT name, CONCAT(url, ', ', alexa, ', ', country) AS site_info
@@ -71,7 +68,7 @@ FROM Websites;
 ```
 
 
-#### 7、JOIN连接
+#### JOIN连接
 ![7种join](/images/sql_join.png)
 1. INNER JOIN ON（INNER JOIN 与 JOIN 是相同的）
 ```
@@ -128,7 +125,7 @@ ON table1.column_name=table2.column_name;
 ```
 
 
-#### 8、UNION
+#### UNION
 合并两个或多个 SELECT 语句的结果，UNION 内部的每个 SELECT 语句必须拥有相同数量的列。列也必须拥有相似的数据类型。同时，每个 SELECT 语句中的列的顺序必须相同。
 ```
 SELECT column_name(s) FROM table1
@@ -143,7 +140,7 @@ SELECT column_name(s) FROM table2;
 ```
 
 
-#### 9、SELECT INTO（MySQL 数据库不支持 SELECT ... INTO 语句，但支持 INSERT INTO ... SELECT）
+#### SELECT INTO（MySQL 数据库不支持 SELECT ... INTO 语句，但支持 INSERT INTO ... SELECT）
 从一个表复制数据，然后把数据插入到另一个新表中。
 ```
 SELECT *
@@ -164,7 +161,7 @@ SELECT * FROM 旧表
 ```
 
 
-#### 10、INSERT INTO SELECT
+#### INSERT INTO SELECT
 从一个表复制数据，然后把数据插入到一个已存在的表中。
 ```
 INSERT INTO table2
@@ -179,7 +176,7 @@ FROM table1;
 ```
 
 
-#### 11、SQL约束
+#### SQL约束
 1.NOT NULL
 ```
 ALTER TABLE Persons MODIFY Age int NOT NULL;
@@ -223,14 +220,14 @@ ALTER TABLE Persons ALTER COLUMN City DROP DEFAULT;
 ```
 
 
-#### 12、DROP删除表结构，TRUNCATE删除表内容
+#### DROP删除表结构，TRUNCATE删除表内容
 ```
 DROP TABLE table_name;
 TRUNCATE TABLE table_name;
 ```
 
 
-#### 13.NULL值赋为0
+#### NULL值赋为0
 ```
 SELECT ProductName,UnitPrice*(UnitsInStock+ISNULL(UnitsOnOrder,0)) FROM Products;
 SELECT ProductName,UnitPrice*(UnitsInStock+NVL(UnitsOnOrder,0)) FROM Products;

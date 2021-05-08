@@ -1,11 +1,12 @@
+---
 title: hexo初步学习
 author: 汉娜
-tags: 
-  - hexo
-categories: 
-  - 博客
+tags: hexo
+categories: 博客
 date: 2019-07-01 17:05:00
 ---
+
+
 参考文档：
 
 1、[hexo中文文档](https://hexo.io/zh-cn/docs/)
