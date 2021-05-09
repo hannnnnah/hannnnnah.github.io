@@ -32,30 +32,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda473ad-d5c4-4fb7-9420-1e9a1fb2f022" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/images/install_brew.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="eda473ad-d5c4-4fb7-9420-1e9a1fb2f022" name="Default" comment="添加mac更新博客操作">
+      <change afterPath="$PROJECT_DIR$/source/images/modify_config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/no_style.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/更换电脑更新博客操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/更换电脑更新博客操作.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Muse</find>
-      <find>lang</find>
-      <find>ext</find>
-      <find>i</find>
-      <find>强力驱动</find>
-      <find>mot</find>
-      <find>side</find>
-      <find>men</find>
-      <find>menu</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,10 +57,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -90,8 +81,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561945114747</updated>
-      <workItem from="1620528083677" duration="3181000" />
+      <workItem from="1620528083677" duration="4389000" />
+      <workItem from="1620538238526" duration="2824000" />
     </task>
+    <task id="LOCAL-00001" summary="添加mac更新博客操作">
+      <created>1620534630358</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620534630358</updated>
+    </task>
+    <task id="LOCAL-00002" summary="添加mac更新博客操作">
+      <created>1620544499313</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620544499313</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,15 +114,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="添加mac更新博客操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加mac更新博客操作" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1620529217973">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620538128339">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1620529217973" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1620538128339" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1620537913096">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1620537913096" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1620538218580">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1620538218580" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1620544540778">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1620544540778" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1620545990274">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1620545990274" />
   </component>
 </project>
