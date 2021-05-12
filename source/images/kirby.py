@@ -10,17 +10,17 @@ def drawEllipse(a,b):
 		turtle.rt(3)
 		turtle.fd(a)
 
-# 头部
-turtle.setup(1000, 1000, 0, 0)
+# head
+turtle.setup(800, 800, 0, 0)
 turtle.pensize(5)
 turtle.hideturtle()
-turtle.speed(20)
+turtle.speed(10)
 turtle.color("#F49CA8")
 turtle.begin_fill()
 turtle.circle(200)
 turtle.end_fill()
 
-# 左眼
+# left eyes
 turtle.penup()
 turtle.goto(-60,350)
 turtle.pendown()
@@ -40,7 +40,7 @@ turtle.begin_fill()
 drawEllipse(0.5,0.09)
 turtle.end_fill()
 
-# 右眼
+# right eyes
 turtle.penup()
 turtle.goto(60,350)
 turtle.pendown()
@@ -59,7 +59,7 @@ turtle.begin_fill()
 drawEllipse(0.5,0.09)
 turtle.end_fill()
 
-# 左腮红
+# left
 turtle.penup()
 turtle.goto(-150,180)
 turtle.pendown()
@@ -69,7 +69,7 @@ turtle.lt(90)
 drawEllipse(0.3,0.06)
 turtle.end_fill()
 
-# 右腮红
+# right
 turtle.penup()
 turtle.goto(100,180)
 turtle.pendown()
@@ -78,7 +78,7 @@ turtle.begin_fill()
 drawEllipse(0.3,0.06)
 turtle.end_fill()
 
-# 左手
+# left hand
 turtle.penup()
 turtle.goto(-160,180)
 turtle.pendown()
@@ -87,34 +87,36 @@ turtle.begin_fill()
 turtle.circle(50)
 turtle.end_fill()
 
-# 右手
+# right hand
 turtle.penup()
-turtle.goto(240,180)
+turtle.goto(260,185)
 turtle.pendown()
 turtle.color("#F49CA8")
 turtle.begin_fill()
 turtle.circle(50)
 turtle.end_fill()
+time.sleep(1)
 
-# 左脚
+# left foot
 turtle.penup()
-turtle.goto(-130,50)
+turtle.goto(-120,50)
 turtle.pendown()
 turtle.color("#9B384D")
 turtle.begin_fill()
 turtle.circle(50)
 turtle.end_fill()
 
-# 右脚
+# right foot
 turtle.penup()
-turtle.goto(110,50)
+turtle.goto(130,40)
 turtle.pendown()
 turtle.color("#9B384D")
 turtle.begin_fill()
 turtle.circle(50)
 turtle.end_fill()
+time.sleep(1)
 
-# 嘴巴#562B25 #F38D77
+# mouse#562B25 #F38D77
 turtle.pensize(1)
 turtle.penup()
 turtle.goto(-20,180)
