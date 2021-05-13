@@ -58,5 +58,5 @@ pip3 install turtle
 28、turtle.home()：移动到起始点，坐标原点（0，0）,并设置朝向为起始朝向。
 
 #### 实践
-用turtle绘制了卡比（不知道细长椭圆如何绘制，目前只能是大眼卡比了
-![kirby](/images/kirby.png)
+绘制了星之卡比（不知道细长椭圆如何绘制，目前只能是大眼卡比了
+![kirby](/images/kirby.jpg)
