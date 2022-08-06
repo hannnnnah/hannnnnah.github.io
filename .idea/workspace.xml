@@ -33,16 +33,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eda473ad-d5c4-4fb7-9420-1e9a1fb2f022" name="Default" comment="添加mac更新博客操作">
-      <change afterPath="$PROJECT_DIR$/source/images/modify_config.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/no_style.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/git_token.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/hexo_d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/id_rsa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myblog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/My-New-Post.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/更换电脑更新博客操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/更换电脑更新博客操作.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,6 +82,58 @@
       <recent name="E:\测试\博客\myblog\myblog\source\_posts" />
     </key>
   </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="kirby" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/images" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/images/kirby.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="myblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/images" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/images/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.kirby" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,7 +145,20 @@
       <option name="presentableId" value="Default" />
       <updated>1561945114747</updated>
       <workItem from="1620528083677" duration="4389000" />
-      <workItem from="1620538238526" duration="2824000" />
+      <workItem from="1620538238526" duration="4137000" />
+      <workItem from="1620736726474" duration="1909000" />
+      <workItem from="1624493694373" duration="60000" />
+      <workItem from="1624493781150" duration="31000" />
+      <workItem from="1624532578335" duration="1101000" />
+      <workItem from="1627367248832" duration="929000" />
+      <workItem from="1627369290487" duration="158000" />
+      <workItem from="1627369464762" duration="386000" />
+      <workItem from="1627369893568" duration="48000" />
+      <workItem from="1627369949800" duration="33000" />
+      <workItem from="1627451317985" duration="1632000" />
+      <workItem from="1635059265166" duration="1236000" />
+      <workItem from="1659773979685" duration="1775000" />
+      <workItem from="1659775979779" duration="1876000" />
     </task>
     <task id="LOCAL-00001" summary="添加mac更新博客操作">
       <created>1620534630358</created>
@@ -98,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620544499313</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加mac更新博客操作">
+      <created>1620546344447</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620546344447</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,25 +205,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加mac更新博客操作" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620538128339">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="100" y="123" width="1240" height="608" key="DiffContextDialog" timestamp="1659776428279">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1620538128339" />
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1620537913096">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="100" y="123" width="1240" height="608" key="DiffContextDialog/0.23.1440.808@0.23.1440.808" timestamp="1659776428279" />
+    <state x="470" y="136" key="RollbackChangesDialog" timestamp="1659774952600">
+      <screen x="0" y="23" width="1440" height="808" />
     </state>
-    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1620537913096" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1620538218580">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1620538218580" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1620544540778">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1620544540778" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1620545990274">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1620545990274" />
+    <state x="470" y="136" key="RollbackChangesDialog/0.23.1440.808@0.23.1440.808" timestamp="1659774952600" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hannnnnah_github_io$kirby.coverage" NAME="kirby Coverage Results" MODIFIED="1624533236982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/images" />
+    <SUITE FILE_PATH="coverage/hannnnnah_github_io$test.coverage" NAME="test Coverage Results" MODIFIED="1659774424979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/source/images" />
   </component>
 </project>
