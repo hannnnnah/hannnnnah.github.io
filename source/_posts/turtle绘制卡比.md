@@ -1,7 +1,6 @@
----
 title: turtle学习
 tags: turtle
-author: 汉娜
+author: hannah
 categories: python
 date: 2021-05-10 10:30:00
 ---

@@ -1,8 +1,7 @@
----
 title: git学习
-author: 汉娜
+author: hannah
 tags: git
-categories: git
+categories: 工具
 date: 2021-05-13 14:42:23
 ---
 

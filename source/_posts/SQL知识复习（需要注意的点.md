@@ -1,6 +1,5 @@
----
 title: SQL知识复习（需要注意的点
-author: 汉娜
+author: hannah
 tags: SQL知识点
 categories: 数据库
 date: 2021-05-07 15:52:07
