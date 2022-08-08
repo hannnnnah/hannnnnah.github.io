@@ -33,24 +33,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eda473ad-d5c4-4fb7-9420-1e9a1fb2f022" name="Default" comment="添加mac更新博客操作">
-      <change afterPath="$PROJECT_DIR$/source/images/pycharm-2020-1-for-mac/pycharm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/pycharm-2020-1-for-mac/修改配置.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/images/pycharm-2020-1-for-mac/补丁文件.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/小程序第一天.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/小程序第一天/tabbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/小程序第一天/window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/小程序第一天/必要文件.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/小程序第一天/拍卖.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/images/小程序第一天/首页.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_drafts/hello-world.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_drafts/hello-world.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/SQL知识复习（需要注意的点.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/SQL知识复习（需要注意的点.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/git学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/git学习.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/hexo初步学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/hexo初步学习.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/pycharm-2020-1-for-mac.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/pycharm-2020-1-for-mac.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/turtle绘制卡比.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/turtle绘制卡比.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/更换电脑更新博客操作.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/更换电脑更新博客操作.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/add_ssh_key.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/更换电脑更新博客操作/add_ssh_key.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/hexo_d.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/更换电脑更新博客操作/hexo_d.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/id_rsa.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/更换电脑更新博客操作/id_rsa.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/install_brew.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/更换电脑更新博客操作/install_brew.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/modify_config.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/更换电脑更新博客操作/modify_config.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/no_style.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/更换电脑更新博客操作/no_style.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/node12.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/更换电脑更新博客操作/node12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/node_hexo.png" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/更换电脑更新博客操作/node_hexo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/访问github.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/访问github.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +84,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\测试\博客\myblog\myblog\source\_posts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source/images" />
       <recent name="$PROJECT_DIR$/source/images/更换电脑更新博客操作" />
       <recent name="$PROJECT_DIR$/source/_posts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\测试\博客\myblog\myblog\source\_posts" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
@@ -173,7 +170,8 @@
       <workItem from="1635059265166" duration="1236000" />
       <workItem from="1659773979685" duration="1775000" />
       <workItem from="1659775979779" duration="8248000" />
-      <workItem from="1659845955747" duration="565000" />
+      <workItem from="1659845955747" duration="8044000" />
+      <workItem from="1659970698877" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="添加mac更新博客操作">
       <created>1620534630358</created>

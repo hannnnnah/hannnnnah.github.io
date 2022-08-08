@@ -1,3 +1,4 @@
+---
 title: hexo初步学习
 author: hannah
 tags: hexo

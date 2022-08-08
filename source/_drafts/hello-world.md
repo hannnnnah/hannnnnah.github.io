@@ -1,9 +1,11 @@
+---
 title: pycharm 2020.1 for mac破解
 author: hannah
 tags: pycharm
 categories: 工具
 date: 2022-08-06 18:09:36
 ---
+## 标题：
 
 链接：
 [第一种方法](http://t.zoukankan.com/DI-DIAO-p-12588658.html)
