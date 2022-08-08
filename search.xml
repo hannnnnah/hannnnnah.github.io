@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[小程序第一天]]></title>
+    <url>%2F2022%2F08%2F07%2F%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%AC%AC%E4%B8%80%E5%A4%A9%2F</url>
+    <content type="text"><![CDATA[学习视频：https://www.bilibili.com/video/BV1tt4y1W77c?p=7&amp;vd_source=cc4edd822d395a23d5fa95cfcf4c2b66官方文档：https://developers.weixin.qq.com/miniprogram/dev/reference/configuration/app.html#window 基础组件text，编写文本信息，类似于span标签；view，容器，类似于div标签；image，图片。 像素rpx，宽750rpx。 flex布局设置display为flex，并进行布局展示设置： 123456789101112.menu&#123; display: flex; # 规定主轴的方向(row/column) flex.direction: column; # 元素在主轴方向上如何展示(flex-start/space-around/space-between/center) justify-content: space-around; # 元素在副轴方向上如何展示(flex-start/space-around/space-between/center) align-items: flex-end;&#125; 文件utils-自带的公共功能；pages-页面文件； json-配置文件； js-js； wxml-html； wxss-css；project.config.json-项目相关配置；sitemap.json-爬虫。 默认需要的文件app.json-需要一个pages数组；pages-需要有一个页面；app.js-需要有此文件，才能生成二维码，在手机上预览。 顶部导航栏在全局的page.json的josn中加上window的navigationBar系列参数： 1234&quot;window&quot;: &#123; &quot;navigationBarTitleText&quot;: &quot;首页&quot;, &quot;navigationBarBackgroundColor&quot;: &quot;#1E90FF&quot;&#125; 底部导航栏在全局的page.json的josn中加上tabBar系列参数： 123456789101112131415161718&quot;tabBar&quot;: &#123; &quot;color&quot;: &quot;#707070&quot;, &quot;selectedColor&quot;: &quot;#1E90FF&quot;, &quot;list&quot;: [ &#123; &quot;pagePath&quot;: &quot;pages/index/index&quot;, &quot;text&quot;: &quot;首页&quot;, &quot;iconPath&quot;: &quot;images/tabbar/index.png&quot;, &quot;selectedIconPath&quot;: &quot;images/tabbar/index_press.png&quot; &#125;, &#123; &quot;pagePath&quot;: &quot;pages/paimai/paimai&quot;, &quot;text&quot;: &quot;拍卖&quot;, &quot;iconPath&quot;: &quot;images/tabbar/paimai.png&quot;, &quot;selectedIconPath&quot;: &quot;images/tabbar/paimai_press.png&quot; &#125; ] &#125; 实例]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[访问github]]></title>
     <url>%2F2022%2F08%2F06%2F%E8%AE%BF%E9%97%AEgithub%2F</url>
     <content type="text"><![CDATA[参考文档：国内打不开GitHub网站100%解决办法 最近国内访问github.com经常打不开，无法访问，解决Github打不开问题，我使用的是参考文档中的终极方法： windows打开hosts文件（C:\Windows\System32\drivers\etc）,末尾放入以下两个 IP 地址： 1234# GitHub Start140.82.114.4 github.com199.232.69.194 github.global.ssl.fastly.net# GitHub End 再在 CMD 命令行中执行下面语句 来刷新 DNS，重启浏览器之后就能进入Github 网址。 1ipconfig/flushdns mac打开finder，点击顶部菜单栏的【前往】，再点击【前往文件夹】，输入/etc/hosts前往，找到hosts文件，将它拖拽到桌面上， 右键桌面上的hosts文件，滑动到【打开方式】，再点击【文本编辑】，末尾放入以下两个 IP 地址： 1234# GitHub Start140.82.114.4 github.com199.232.69.194 github.global.ssl.fastly.net# GitHub End 修改完按command + s保存，将桌面的hosts文件拖拽回/etc/hosts中，点击【认证】，再点击【替换】，再输入开机密码即可。 再在 CMD 命令行中执行下面语句，并输入密码来刷新 DNS，重启浏览器之后就能进入Github 网址。 1sudo killall -HUP mDNSResponder &amp;&amp; echo macOS DNS Cache Reset]]></content>
